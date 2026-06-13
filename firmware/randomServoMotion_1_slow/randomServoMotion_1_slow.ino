@@ -72,7 +72,7 @@ void setup() {
   s2.servo.attach(s2.pin);
   s1.servo.write(90);
   s2.servo.write(90);
-  delay(500);
+  delay(3500);
 
   // Kick off first random target immediately
   s1.holdUntil = millis();
